@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "note-toker-mokumoku"
+version = "0.1.0"
+description = ""
+authors = ["saikyo219 <k.higuchi.219@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.40.1"
+openai = "^1.54.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
